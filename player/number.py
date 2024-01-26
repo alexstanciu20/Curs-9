@@ -1,6 +1,7 @@
 import random
 
-nr = random.randint(1, 49)
-print(nr)
+for i in range(6):
+    nr = random.randint(1, 49)
+    print(nr)
 
 
