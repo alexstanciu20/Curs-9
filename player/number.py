@@ -11,3 +11,11 @@ print("Categoria:", 7 - len(nr_ghicite) if len(nr_ghicite) >= 3 else 0)
 
 print(all([nr in range(1, 50) for nr in numere]))
 print(all([nr in range(1, 50) for nr in numere_alese]))
+
+# Verificam daca elementele sunt unice
+print(len(set(numere)) == len(numere))
+print(len(set(numere_alese)) == len(numere_alese))
+
+
+
+
