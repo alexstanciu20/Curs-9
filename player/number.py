@@ -7,12 +7,4 @@ nr_ghicite = [nr for nr in numere_alese if nr in numere]
 
 print(nr_ghicite)
 
-categorii = {
-    6 : 1,
-    5 : 2,
-    4 : 3,
-    3 : 4
-}
-
-print("Categoria: ", categorii[len(nr_ghicite)] if len(nr_ghicite) in categorii else 0)
-print("Categoria: ", categorii.get(len(nr_ghicite), 0))
+print("Categoria:", 7 - len(nr_ghicite) if len(nr_ghicite) >= 3 else 0)
