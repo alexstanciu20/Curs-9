@@ -12,3 +12,4 @@ for nr in numere:
 else:
     print("Nu ai ghicit!")
 
+print(any([numar_ales == nr for nr in numere]))
